@@ -1,0 +1,136 @@
+/*
+
+CSS CASCADE STYLE SHEET --> hojas de estilo en cascada
+apariencia y distribucion del estilo
+
+
+CSS:Cascade style sheeet = Hoja de estilos en cascadaAplicacion sobre la etiqueta
+
+h1{color:redcolor caja
+    background-color: gray color de fondo de la caja
+    padding: 2%ancho del marco interno
+    text-align: centeralineacion del texto o ubicacion
+    border: solid blackestilo borde y el color
+    border-width: 2pxgrueso del borde
+    border-style:solidestilo del borde}
+.contenedor{
+    width: 100%;
+    padding: 1%;
+    background-color: grey;
+    border-radius: 5%;}
+
+.menu{text-align: center; }
+
+.principal{
+    width: 45%;
+    padding: 2%;
+    float: left;
+}
+.lateral{
+    width: 45%;
+    padding: 2%;
+    float: left;
+}
+.pie_depagina{
+    width: 100%;
+    clear:both;
+    text-align: center;
+    
+}*/
+
+.logo {
+  border-radius: 120px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h1 {
+  background-color: #226880;
+
+  text-align: center;
+  border: solid rgb(90, 88, 88);
+  border-width: 2px;
+  margin: 0 auto;
+}
+
+.contenedor {
+  width: 75%;
+  padding: 0 auto;
+  background-color: #226880;
+  border-radius: 5%;
+  margin: 0 auto;
+  height: 920px;
+}
+
+.principal {
+  width: 55%;
+  padding: 2%;
+  float: left;
+}
+.lateral {
+  width: 35%;
+  padding: 2%;
+  float: left;
+}
+.menu {
+  text-emphasis-color: white;
+  background-color: #222f33;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: hidden;
+}
+
+.menu > ul > li {
+  display: inline;
+  padding: 10px;
+  list-style: none;
+  border-color: #0e4b5f;
+  margin-left: 3px;
+  border-radius: 10px;
+  color: #b5d5e0;
+  background-color: #274f5c;
+  box-shadow: 10px - 2px #608d9d;
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+.menu > ul > li > a:hover {
+  color: white;
+  font-size: 1.5em;
+}
+/* usando una pseucoclase de css, hover reacciona al cursor*/
+.piedepagina {
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.turu {
+  text-decoration: none;
+}
+table, th, tr, td {
+  text-align: center;
+  margin: 0 auto;
+  border-style: solid;
+  border: 2;
+  width: 600px;
+}
+.quess {
+  text-align: center;
+  margin: 0 auto;
+}
+.servs {
+  margin: 0 auto;
+  width: 30%;
+  float: left;
+}
+.info{
+  text-align: center;
+  margin: 0 auto;
+}
